@@ -21,8 +21,9 @@ function firstQuestion() {
   $(".content").hide();
   Swal.fire({
     title: CONFIG.introTitle,
-    text: CONFIG.introDesc,
-    imageUrl: "img/a.jpg",
+ 
+    text: CONFIG.introDesc.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;"),
+    imageUrl: "img/lixi.jpg",
     imageWidth: 300,
     imageHeight: 300,
     background: '#fff url("img/iput-bg.jpg")',
