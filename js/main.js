@@ -23,7 +23,7 @@ function firstQuestion() {
     title: CONFIG.introTitle,
  
     text: CONFIG.introDesc.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;"),
-    imageUrl: "img/lixi.jpg",
+    imageUrl: "img/aa.png",
     imageWidth: 300,
     imageHeight: 300,
     background: '#fff url("img/iput-bg.jpg")',
